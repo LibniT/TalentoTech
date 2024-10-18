@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.Productos {
+    background-color: #fff  ;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.productos_jugo{
+    background-color: #2E7D32  ;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.recuadro {
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    margin: 20px 0; 
+    padding: 15px;
+    background-color: #e0f7fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recuadro_login
+{
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    margin: 0 auto; 
+    padding: 15px;
+    background-color: #e0f7fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    position: relative;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    max-width: 150px; 
+    border-radius: 5px; 
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background-color: #45a049; 
+    transform: scale(1.05); 
+}
+
+a {
+    color: white; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+.encabezado{
+    background-color: darkgreen;
+    color: lightgreen;
+}
+
+
+.login{
+    max-width: 600px;
+	margin: 0 auto;
+    margin-bottom: 20px ;
+	padding: 20px;
+	background-color: lightgreen;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 3.0);
+    display: block;
+}
+
+label{
+	display: block;
+	margin: 10px 0 5px;
+	font-weight: bold;
+}
+input, textarea, select{
+width: 90%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #bbb;
+border-radius: 6px;
+}
+input[type="submit"]{
+	background: darkgreen;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+input[type="submit"]:hover{
+	background: #533706;
+	}

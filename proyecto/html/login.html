@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="/proyecto/css/styles(laboratorio).css">
+</head>
+<body>
+    <header>Login</header>
+
+        <div style="text-align: center; width: 600px; display: grid; place-items: center; margin: auto;"  class="recuadro">
+            <h1>
+                Registrarse
+            </h1>
+        </div>
+        <style>
+            input[type="text"],
+            input[type="email"],
+            input[type="tel"],
+            input[type="password"],
+            input[type="direccion"],
+            textarea {
+                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            }
+        </style>
+
+        <div class="login">
+            <form>
+                <label>* Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label>* Correo Electronico:</label>
+                <input type="email" id="email" name="email" required>
+                <label>Telefono:</label>
+                <input type="tel" name="telefono" minlength="8">
+                <label>Celular: </label>
+                <input type="tel" name="celular" maxlength="10">
+                <label>* Ingrese su contraseña: </label>
+                <input type="password" name="" minlength="8" required>
+                <label>Dirección:</label>
+                <input type="direccion" name="direccion">
+                <label>* Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <label>* Pais:</label>
+                <select id="pais" name="pais" required>
+                    <option disabled="" selected="">Selecciona tu país</option>
+                    <option value="co">Colombia</option>
+                    <option value="ec">Ecuador</option>
+                    <option value="pe">Peru</option>
+                    <option value="ve">Venezuela</option>
+                    <option value="ch">Chile</option>
+                    <option value="ur">Uruguay</option>
+                    <option value="vi">Vinlanda!</option>
+                </select>
+                <input type="submit" name="" value="Enviar">
+                 </form>
+                 <p>* Campo Obligatorio</p>
+        </div>
+       
+        
+
+
+    <footer>
+        <p>&copy; Derechos reservados Libni Torres</p>
+        <button><p><a href="https://linktr.ee/libnitorr3s">Contáctame</a></p></button>
+        <button><a href="index.html">Regresar al menú principal</a></button>
+    </footer>
+</body>
+</html>
