@@ -1,0 +1,47 @@
+Para permitir la interacción del usuario con la página:
+    capturar información del usuario
+    permitir la interacción con el usuario
+    etc
+permite introducir información y enviarla a un servidor
+
+<form> (así se declara un formulario en html)
+    action
+        especifica la url del script que procesará los datos del formulario.
+    method
+        get
+        post
+
+        campos de texto (para capturar información)
+        <input type ="text">
+
+        Botones de acción (opciones)
+
+        <input type="radio">
+
+        casillas de verificación (opciones, con la diferencia de que puedes elejir varias opciones)
+        <input type="checkbox">
+
+es importante que separes la información (usar diferentes labels para cada input), así el usuario no se perderá.
+
+atributos comunes en los elementos del formulario
+    name:
+        nombre del formulario.
+    value:
+        valor predeterminado del elemeno.
+    required:
+        Indica que el elemento es obligatorio para poder enviar el formulario.
+    placeholder:
+        proporciona un ejemplo de lo que se espera que el usuario escriba.
+    maxlength:
+        define un límite de caracteres permitidos dentro de un campo.
+
+etiquetas más relevantes para crear formularios:
+    <form></form>
+        apertura y cierre de un formulario.
+    <fieldset></fieldset>
+        grupo de elementos dentro de un formulario.
+    <legend></legend>
+        indica el título de <fieldset>.
+    <label></label>
+        se usa para definir el nombre/título de un formulario.
+
